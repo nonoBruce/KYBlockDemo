@@ -13,7 +13,7 @@
 		3289EAE61C5B5C4E0034B34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289EAE41C5B5C4E0034B34C /* Main.storyboard */; };
 		3289EAE81C5B5C4E0034B34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289EAE71C5B5C4E0034B34C /* Assets.xcassets */; };
 		3289EAEB1C5B5C4E0034B34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289EAE91C5B5C4E0034B34C /* LaunchScreen.storyboard */; };
-		3289EAF41C5B5CC10034B34C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289EAF31C5B5CC10034B34C /* SecondViewController.m */; };
+		3289EAF41C5B5CC10034B34C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289EAF31C5B5CC10034B34C /* SecondViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		32C0B0CC1C5C8C4100525C46 /* BlockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C0B0CB1C5C8C4100525C46 /* BlockDemo.m */; };
 		32C0B0D01C5F341F00525C46 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C0B0CF1C5F341F00525C46 /* HttpRequest.m */; };
 /* End PBXBuildFile section */
@@ -231,9 +231,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 29;
+				CURRENT_PROJECT_VERSION = 46;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_CURRENT_VERSION = 29;
+				DYLIB_CURRENT_VERSION = 46;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -278,9 +278,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 29;
+				CURRENT_PROJECT_VERSION = 46;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_CURRENT_VERSION = 29;
+				DYLIB_CURRENT_VERSION = 46;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
